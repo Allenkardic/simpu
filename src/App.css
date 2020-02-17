@@ -9,4 +9,156 @@
   width: auto;
   height: 42px;
   background-color: #6554c0;
+  display: flex;
+  justify-content: space-between;
+  color: white;
 }
+
+.Rectangle-items {
+  margin: 0.7rem 3rem 0 2rem;
+}
+
+.logo {
+  width: 63px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.Oval {
+  border-radius: 50%;
+  padding: 0.1rem 0.4rem;
+  width: 8px;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 19px;
+  font-family: AvenirNext;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-right: 0.5rem;
+}
+.Organisation-Name {
+  width: 123px;
+  height: 18px;
+  font-family: IBMPlexSans;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-right: 1rem;
+}
+
+.icon-color {
+  width: 10px;
+  height: 6px;
+  color: #000000;
+}
+
+.conversation-box {
+  border: 1px solid red;
+  /* position: relative; */
+  /* height: 100px; */
+  display: flex;
+  flex-direction: row;
+}
+
+.conversation-box-items {
+  border: 1px solid yellow;
+}
+
+.conversation-box-items:first-child {
+  border: 1px solid blue;
+  flex: 0.2;
+}
+
+.sidebar {
+  /* position: absolute; */
+  border: 1px solid black;
+  height: 100%;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.conversation-box-items:nth-child(2) {
+  border: 1px solid yellow;
+  flex: 9.8;
+  display: flex;
+  flex-direction: column;
+}
+
+.conversation {
+  width: 133px;
+  height: 25px;
+  font-family: IBMPlexSans;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #212242;
+}
+
+.card-one {
+  border: 1px solid gray;
+  display: flex;
+}
+
+.card-one-items:first-child {
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 1px solid red;
+}
+
+.card-one-items:nth-child(2) {
+  flex: 7;
+  border: 1px solid orange;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-one-items-two-content:first-child {
+  border: 1px solid gray;
+}
+
+.card-two {
+  border: 1px solid gray;
+  display: flex;
+}
+
+.card-two-items:first-child {
+  flex: 3;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-two-items-one-content:first-child {
+  flex: 2;
+  border: 1px solid greenyellow;
+}
+
+.card-one-items-two-content:nth-child(2) {
+  flex: 8;
+  border: 1px solid green;
+}
+
+.card-two-items:nth-child(2) {
+  flex: 5;
+  border: 1px solid orange;
+}
+
+.card-two-items:nth-child(3) {
+  flex: 2;
+  border: 1px solid hotpink;
+}
+/* .conversation; */
